@@ -1,3 +1,24 @@
+nav .nav-item {
+    transition: all ease-in-out .5s;
+    
+    
+}
+
+nav .nav-item:hover {
+    background-color: rgba(122, 174, 220, 0.653);
+    border-radius: 5%;
+
+}
+body{
+    background-color: rgb(248, 243, 235);
+    background-image: url(https://cdn.shopify.com/s/files/1/0533/2089/files/5-websites-to-download-free-subtle-textures-subtle.jpg?5724472906039650661)
+}
+
+
+
+.jumbotron{
+    background-image: url(https://cdn.shopify.com/s/files/1/0533/2089/files/5-websites-to-download-free-subtle-textures-subtle.jpg?5724472906039650661)
+}
 
     .jumbotron hr {
     border: 0;
@@ -9,9 +30,10 @@
     );
   }
    .jumbotron img {
-    border-radius: 50%;
+    border-radius: 20%;
   }
   
+
   
   .lead {
       font-size: 1rem;
@@ -33,10 +55,28 @@
  .bg-dark {
     background-color: #3592f0!important;
 }
-.card-body{
-    background: ;
+.card{
+    background-color: rgb(99, 99, 98);
 
 }
+.card h1{
+    color:#f39d32 ;
+
+}
+
+.card *{
+    color: whitesmoke;
+}
+.btn-primary{
+    background-color:#d39e00;
+    border-color: #ffc107;
+
+}
+
+.card .card-title{
+     color: #f39d32; 
+}
+
 @media (min-width:1000px){
     .jumbotron {
         height: 80vh;
