@@ -1,0 +1,39 @@
+@media (min-width:1000px){
+    .jumbotron {
+        height: 80vh;
+    }
+
+}
+    .jumbotron hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(
+      to right,
+      rgba(42, 93, 202, 0.555),
+      rgba(67, 39, 223, 0)
+    );
+  }
+   .jumbotron img {
+    border-radius: 50%;
+  }
+  
+  
+  .lead {
+      font-size: 1rem;
+  }
+  
+  .lead span{
+      font-size: 1.5rem;
+      font-weight: 300;
+  }
+
+#about-me .heading {
+    font-size: 4rem;
+}
+
+.card {
+    width: 100%;
+}
+ .bg-dark {
+    background-color: #3592f0!important;
+}
